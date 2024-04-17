@@ -9,7 +9,6 @@ function countNegatives(grid) {
     
     while (row >= 0 && col < cols) {
         if (grid[row][col] < 0) {
-            // If the current element is negative, increment count
             count += cols - col;
             // Move to the next row
             row--;
